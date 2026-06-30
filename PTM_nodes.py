@@ -19,13 +19,6 @@ import re
 import folder_paths
 import os
 
-# Add a little notice to the loading screen just for fun!
-VERSION = "1.0.0"
-
-print("══════════════════════════════════════════════════════════════════════════════════")
-print(f"Entering ParaTorMal Activity mode!  PTM ComfyUI Nodes v{VERSION}")
-print(f"Loaded {len(NODE_CLASS_MAPPINGS)} PTM node(s)")
-print("══════════════════════════════════════════════════════════════════════════════════")
 
 # Nodes!
 # 📌 ParaTorMal/QuickHacks
